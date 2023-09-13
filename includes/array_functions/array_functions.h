@@ -84,6 +84,10 @@ int search(T* a, int size, const T& find_me){               //searches for find_
         }
         walker++;
     } 
+
+    /*T* ptr = search_entry(a, size, find_me);
+    T index = *ptr;
+    return index;*/
 }
 
 template <class T>
